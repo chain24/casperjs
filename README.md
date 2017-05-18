@@ -9,3 +9,6 @@
 #2.环境变量的配置。
 
 #3.完成安装。
+
+使用：
+casperjs endicia.js --user=YOUR ACCOUNT 
