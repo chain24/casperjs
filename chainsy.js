@@ -5,7 +5,7 @@ var casper = require('casper').create({
         console.log("FATAL:" + m);
         self.exit();
     },
-    clientScripts: ["jquery.js"]
+    clientScripts: ["jquery-1.11.3.min.js"]
 });
 
 casper.start('https://ksc.dodoedu.com', function() {
