@@ -26,7 +26,7 @@ casper.wait(2000,function(){
 });
 
 casper.then(function() {
-    this.click('a[class="btn btn-comment"]');
+    document.querySelector('a[class="btn btn-comment"]').click();
     this.echo('start to exam...');
 });
 casper.then(function(){
