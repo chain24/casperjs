@@ -33,77 +33,77 @@ casper.then(function(){
     this.evaluate(function(){
         //第一题错
         document.getElementById("answer_18110915304381304003657_2").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第二题错
         document.getElementById("answer_18110915351749904268029_2").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第三题错
         document.getElementById("answer_18110915332438504130206_2").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第四题判断男女孩
         document.getElementById("answer_18111211293623100566848_3").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第五题判断危险游戏
         document.getElementById("answer_18110915511214404002865_3").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第六题游乐场注意
         document.getElementById("answer_18111211361084901099368_3").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第七题游泳前注意错误
         document.getElementById("answer_18110915460077401764811_3").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第八题沉迷网络
         document.getElementById("answer_18110915550532606564881_2").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第九题大海航行靠舵手
         document.getElementById("answer_18111211150259500041585_4").click();
-        this.click('a[class="btn-next"]');;
+        ;
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第十题道路隔离设施
         document.getElementById("answer_18110915395245700680070_1").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
     this.evaluate(function(){
         //第十一题面对恶狗
         document.getElementById("answer_18111211263989900000107_2").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
@@ -111,7 +111,7 @@ casper.then(function(){
         //第十二题随身听
         document.getElementById("answer_18111215271070700265363_2").click();
         document.getElementById("answer_18111215271070700265363_4").click();
-        this.click('a[class="btn-next"]');
+        
     });
 });
 casper.then(function(){
@@ -122,7 +122,7 @@ casper.then(function(){
         document.getElementById("answer_18110915571500008266243_3").click();
         document.getElementById("answer_18110915571500008266243_4").click();
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -132,7 +132,7 @@ casper.then(function(){
         document.getElementById("answer_18120416262431600379945_2").click();
         document.getElementById("answer_18120416262431600379945_3").click();
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -140,7 +140,7 @@ casper.then(function(){
         document.getElementById("answer_18110917065763534490194_2").click();
         document.getElementById("answer_18110917065763734572616_3").click();
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -149,7 +149,7 @@ casper.then(function(){
         document.getElementById("answer_18110916444919531005043_1").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -161,7 +161,7 @@ casper.then(function(){
         document.getElementById("answer_18120516571570405835863_4").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -174,7 +174,7 @@ casper.then(function(){
         document.getElementById("answer_18110916263708417419078_4").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -185,7 +185,7 @@ casper.then(function(){
         document.getElementById("answer_18110917041593533858857_3").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -195,7 +195,7 @@ casper.then(function(){
         document.getElementById("answer_18110916410490729263456_2").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -203,7 +203,7 @@ casper.then(function(){
         document.getElementById("answer_18111311551778420695312_1").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -211,7 +211,7 @@ casper.then(function(){
         document.getElementById("answer_18111313392446021258843_1").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -219,7 +219,7 @@ casper.then(function(){
         document.getElementById("answer_18111313403027622033933_1").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
@@ -227,21 +227,21 @@ casper.then(function(){
         document.getElementById("answer_18111313462530723602803_1").click();
 
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
         //第十六题综合题 游泳
         document.getElementById("answer_18111313473855124468982_1").click();
     });
-    this.click('a[class="btn-next"]');
+    
 });
 casper.then(function(){
     this.evaluate(function(){
         //第十六题综合题 游泳
         document.getElementById("postExamAnswer").click();
     });
-    this.click('a[class="btn-next"]');
+    
     this.echo('完成');
 });
 
