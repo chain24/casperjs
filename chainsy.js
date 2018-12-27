@@ -33,7 +33,9 @@ casper.then(function() {
 });
 casper.then(function(){
     var url = 'http://qb.51taoshi.com/un/student/doExam.do?eid=18112610210734470743012&tswid=XMbl128&ranId=-745150899';
-    this.thenOpen(url,function(){
+    this.thenOpen(url);
+});
+casper.then(function(){
         casper.evaluate(function(){
             //第一题错
             document.getElementById("answer_18110915304381304003657_2").click();
