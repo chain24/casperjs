@@ -28,7 +28,8 @@ casper.wait(2000,function(){
 
 casper.then(function() {
     this.evaluate(function(){
-        this.click('a[class="btn-comment"]');
+        jQuery("a.btn.btn-comment").click();
+
     });
 });
 casper.then(function () {
