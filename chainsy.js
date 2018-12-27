@@ -16,18 +16,15 @@ casper.start('https://ksc.dodoedu.com', function() {
 
 casper.then(function() {
     this.click('input[class="btn btn-blue btn-block btn-lg js-sub"]');
-    this.echo('clicked...');
+    this.echo('login...');
 });
 
 casper.wait(2000,function(){
     this.evaluate(function(){
-        document.getElementById("submitBtnID").click();
+        this.click('input[class="submit"]');
     });
 });
 
-casper.then(function() {
-    this.click('input[class="submit"]');
-});
 casper.then(function() {
     this.click('a[class="btn btn-comment"]');
     this.echo('start to exam...');
