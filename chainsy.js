@@ -28,21 +28,19 @@ casper.wait(2000,function(){
 
 casper.then(function() {
     this.evaluate(function(){
-        this.echo($('a[class="btn btn-comment"]').text());
+        this.click('a[class="btn btn-comment"]');
     });
-    this.echo('start to exam...');
+    this.echo($("title").text());
 });
-casper.then(function() {
-    search_result_titles = this.evaluate(getTitles)
-    this.echo(search_result_titles)
-});
+this.waitForSelector("#showUserInfo",
+    function pass () {
+        console.log("Continue");
+    },
+    function fail () {
+        this.die("Did not load element... something is wrong");
+    }
+);
 
-function getTitles() {
-    var titles = $.map($("td a.btn btn-comment"), function(link) {
-        return $(link).text()
-    });
-    return titles
-}
 // casper.then(function(){
 //     var url = 'http://qb.51taoshi.com/un/student/doExam.do?eid=18112610210734470743012&tswid=XMbl128&ranId=-745150899';
 //     this.thenOpen(url);
