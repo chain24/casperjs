@@ -34,7 +34,7 @@ casper.then(function() {
 casper.waitFor(function check(){
     return this.exists('#tm_1');
 },function then(){
-    this.evaluate(function(){
+    casper.evaluate(function(){
         //第一题错
         document.getElementById("answer_18110915304381304003657_2").click();
         //第二题错
@@ -109,7 +109,7 @@ casper.waitFor(function check(){
         //第二十五题综合题
         document.getElementById("answer_18111313473855124468982_1").click();
     });
-},null,10000);
+},null,30000);
 
 casper.then(function(){
     this.evaluate(function(){
