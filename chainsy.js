@@ -111,7 +111,6 @@ casper.then(function(){
             //第二十五题综合题
             document.getElementById("answer_18111313473855124468982_1").click();
         });
-    });
 });
 
 casper.then(function(){
