@@ -22,17 +22,10 @@ casper.then(function() {
 
 casper.wait(2000,function(){
     this.evaluate(function(){
-        this.click('input[class="submit"]');
-    });
-});
-
-casper.then(function() {
-    this.evaluate(function(){
         jQuery("a.btn.btn-comment").click();
-
     });
 });
-casper.then(function () {
+casper.wait(200,function () {
     this.echo(this.getTitle());
 })
 // casper.then(function(){
