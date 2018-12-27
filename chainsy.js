@@ -10,7 +10,7 @@ var casper = require('casper').create({
 
 casper.start('https://ksc.dodoedu.com', function() {
     this.fill('form[class="chiActiveInfo"]', {
-        'userName': 'L421127200908040119',
+        'userName': 'L421127200810280202',
         'userPwd': '654321'
     }, false);
 });
@@ -28,7 +28,7 @@ casper.wait(2000,function(){
 
 casper.then(function() {
     this.evaluate(function(){
-        this.click('a[class="btn btn-comment"]');
+        this.click('a[class="btn-comment"]');
     });
 });
 casper.then(function () {
