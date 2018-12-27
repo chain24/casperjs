@@ -29,4 +29,10 @@ casper.then(function() {
     this.click('a[class="btn btn-comment"]');
     this.echo('start to exam...');
 });
+casper.then(function(){
+    this.evaluate(function(){
+        //第一题错
+        document.getElementById("answer_18110915304381304003657_2").click();
+    });
+});
 casper.run();
