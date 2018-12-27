@@ -4,9 +4,10 @@ var casper = require('casper').create({
     onError: function(self,m){
         console.log("FATAL:" + m);
         self.exit();
-    }
+    },
+    clientScripts: ["jquery.js"]
 });
-casper = require('casper').create();
+
 casper.start('https://ksc.dodoedu.com', function() {
     this.fill('form[class="chiActiveInfo"]', {
         'userName': 'L421127200908040119',
