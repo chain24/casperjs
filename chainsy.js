@@ -31,7 +31,9 @@ casper.then(function() {
     });
     this.echo('start to exam...');
 });
-casper.then(function(){
+casper.waitFor(function check(){
+    return this.exists('#tm_1');
+},function then(){
     this.evaluate(function(){
         //第一题错
         document.getElementById("answer_18110915304381304003657_2").click();
@@ -107,7 +109,7 @@ casper.then(function(){
         //第二十五题综合题
         document.getElementById("answer_18111313473855124468982_1").click();
     });
-});
+},null,1000);
 
 casper.then(function(){
     this.evaluate(function(){
