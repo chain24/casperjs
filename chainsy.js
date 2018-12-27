@@ -109,7 +109,7 @@ casper.waitFor(function check(){
         //第二十五题综合题
         document.getElementById("answer_18111313473855124468982_1").click();
     });
-},null,1000);
+},null,10000);
 
 casper.then(function(){
     this.evaluate(function(){
