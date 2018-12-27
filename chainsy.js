@@ -30,9 +30,10 @@ casper.then(function() {
     this.evaluate(function(){
         this.click('a[class="btn btn-comment"]');
     });
-    this.echo($("title").text());
 });
-
+casper.then(function () {
+    this.echo(this.getTitle());
+})
 // casper.then(function(){
 //     var url = 'http://qb.51taoshi.com/un/student/doExam.do?eid=18112610210734470743012&tswid=XMbl128&ranId=-745150899';
 //     this.thenOpen(url);
